@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AddForm.css'
+import '../../css/AddForm.css'
 
 const AddForm = ({addItem}) => {
     const [id, setId] = useState(0);

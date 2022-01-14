@@ -14,10 +14,7 @@ const useFetch = (fetchParams) => {
         }catch(error){
             setError(error);
         }finally{
-            // ?…Œ?Š¤?Š¸ë¥? ?œ„?•´ timeout ?„¤? •
-            setTimeout(() => {
-                setLoading(false);
-            }, 1000);
+            setLoading(false);
         }
     }
 
