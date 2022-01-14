@@ -1,5 +1,5 @@
 import React from 'react';
-import Cards from './card/Cards';
+import Cards from './Cards';
 
 const CardList = ({data, filterText="", findText="", deleteCard, disableDelete=false, currentId}) => {
     return (

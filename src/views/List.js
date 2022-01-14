@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CardList from "../components/CardList";
+import CardList from "../components/card/CardList";
 import AddForm from "../components/form/AddForm";
 import AuthorFilter from "../components/filter/AuthorFilter";
 import '../css/Cards.css';

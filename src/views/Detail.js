@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import CardList from '../components/CardList';
+import CardList from '../components/card/CardList';
 import Card from '../components/card/Cards';
 import AuthorFilter from '../components/filter/AuthorFilter'
 import '../css/Detail.css';
