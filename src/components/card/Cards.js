@@ -19,7 +19,7 @@ const Cards = ({data, onClickCard, disableDelete=false}) => {
                 <img src={data.download_url} alt={data.author} onError={handleImgError} />
             </a>
             <div className="container">
-                <Link to={"/detail/" + data.author + "/" + data.id} target="_blank">
+                <Link to={"/detail/" + data.author + "/" + data.id} >
                     <p className="author">{data.author}</p> 
                 </Link>
                 <a href={data.download_url} target="_blank">
