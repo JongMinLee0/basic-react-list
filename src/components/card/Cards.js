@@ -35,9 +35,7 @@ const Cards = ({data, onClickCard, disableDelete=false}) => {
                 trailingActions={trailingActions()}
             >
                 <div className="card">
-                    <a href={data.download_url} target="_blank">
-                        <img src={data.download_url} alt={data.author} onError={handleImgError} />
-                    </a>
+                    <img src={data.download_url} alt={data.author} onError={handleImgError} draggable={false} />
                     <div className="container">
                         <Link to={"/detail/" + data.author + "/" + data.id} >
                             <p className="author">{data.author}</p> 
